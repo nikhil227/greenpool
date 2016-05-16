@@ -1,0 +1,5 @@
+mysql:
+    connection:
+        mysql+pymysql://root:nikhil123@localhost/pool
+
+port: 5054

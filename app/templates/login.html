@@ -1,0 +1,8 @@
+
+{% import "bootstrap/wtf.html" as wtf %}
+{% block title %}login{% endblock %}
+{% block page_content %}
+<div class="page-header"><h1>hello,please enter username and password</h1></div>
+{{ wtf.quick_form(form) }}
+{% endblock %}
+
